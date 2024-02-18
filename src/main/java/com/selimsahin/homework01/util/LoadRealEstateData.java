@@ -23,20 +23,23 @@ public class LoadRealEstateData {
     private LoadRealEstateData() { }
 
     private static void loadRealEstateData() {
-        realEstates.add(new House("Istanbul", 1_000_000, 4, 1, 200));
-        realEstates.add(new House("Ankara", 500_000, 3, 1, 150));
-        realEstates.add(new House("Izmir", 750_000, 5, 2, 250));
-        realEstates.add(new House("Bursa", 300_000, 2, 1, 100));
-        realEstates.add(new House("Antalya", 600_000, 4, 1, 180));
-        realEstates.add(new Villa("Istanbul", 2_000_000, 6, 2, 300));
-        realEstates.add(new Villa("Ankara", 1_000_000, 5, 2, 250));
-        realEstates.add(new Villa("Izmir", 1_500_000, 7, 3, 350));
-        realEstates.add(new Villa("Bursa", 800_000, 4, 2, 200));
-        realEstates.add(new Villa("Antalya", 1_200_000, 6, 2, 280));
-        realEstates.add(new SummerHouse("Istanbul", 1_500_000, 4, 1, 200));
-        realEstates.add(new SummerHouse("Ankara", 750_000, 3, 1, 150));
-        realEstates.add(new SummerHouse("Izmir", 1_000_000, 5, 2, 250));
-        realEstates.add(new SummerHouse("Bursa", 500_000, 2, 1, 100));
-        realEstates.add(new SummerHouse("Antalya", 900_000, 4, 1, 180));
+        realEstates.add(new House("321 Beach Rd, Copenhagen", 150000.00, 2, 1, 100.25));
+        realEstates.add(new House("123 Main St, Paris", 200000.00, 3, 2, 150.50));
+        realEstates.add(new House("456 Elm St, Berlin", 250000.00, 4, 3, 200.75));
+        realEstates.add(new House("789 Oak St, Madrid", 300000.00, 5, 4, 250.00));
+        realEstates.add(new House("1011 Pine St, Rome", 350000.00, 6, 5, 300.25));
+
+        realEstates.add(new Villa("111 Beach Rd, Copenhagen", 160000.00, 3, 2, 120.25));
+        realEstates.add(new Villa("234 Main St, Paris", 210000.00, 4, 3, 170.50));
+        realEstates.add(new Villa("567 Elm St, Berlin", 260000.00, 5, 4, 220.75));
+        realEstates.add(new Villa("890 Oak St, Madrid", 310000.00, 6, 5, 270.00));
+        realEstates.add(new Villa("1112 Pine St, Rome", 360000.00, 7, 6, 320.25));
+
+        realEstates.add(new SummerHouse("111 Beach Rd, Copenhagen", 155000.00, 2, 1, 105.25));
+        realEstates.add(new SummerHouse("234 Main St, Paris", 205000.00, 3, 2, 155.50));
+        realEstates.add(new SummerHouse("567 Elm St, Berlin", 255000.00, 4, 3, 205.75));
+        realEstates.add(new SummerHouse("890 Oak St, Madrid", 305000.00, 5, 4, 255.00));
+        realEstates.add(new SummerHouse("1112 Pine St, Rome", 355000.00, 6, 5, 305.25));
+
     }
 }
