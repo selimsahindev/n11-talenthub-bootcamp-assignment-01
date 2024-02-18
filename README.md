@@ -34,7 +34,7 @@ To use this Real Estate Management System, you can follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/real-estate-management.git
+   git clone https://github.com/selimsahindev/n11-talenthub-bootcamp-assignment-01.git
    ```
 2. Compile and run the Java application using your favorite IDE or command line tools.
 3. Explore the functionalities provided by the system by observing the console output.
