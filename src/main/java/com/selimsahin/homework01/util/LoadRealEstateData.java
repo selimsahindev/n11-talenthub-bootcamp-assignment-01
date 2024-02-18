@@ -12,8 +12,8 @@ import java.util.List;
 /*
  *  @Author: selimsahindev
  */
-@Getter
 public class LoadRealEstateData {
+    @Getter
     private static final List<RealEstate> realEstates = new ArrayList<>();
 
     static {
